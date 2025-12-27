@@ -1,0 +1,79 @@
+#cabecalho {
+    position: fixed;
+    background-color: transparent;
+    width: 100%;
+    top: 0;
+    left: 0; 
+    z-index: 10;
+    backdrop-filter: blur(20px);
+    font-family: @fontePrincipal;
+
+    &.scrolled {
+        background-color: @corPrincipal;
+        transition: background-color 0.3s ease-in-out;
+
+        .navbar-brand img {
+            filter: brightness(0) invert(1); 
+        }
+
+        .nav-link {
+            color: white !important;
+        }
+
+        .nav-link img {
+            filter: brightness(0) invert(1); 
+        }
+
+        .navbar-toggler {
+            background-color: white;
+            color: @corPrincipal;
+        }
+
+        @media @breakpointMobile {
+            background-color: transparent;
+
+            .navbar-brand img {
+                filter: none; 
+            }
+
+            .nav-link {
+                color: #000 !important;
+            }
+
+            .nav-link img {
+                filter: none;
+            }
+
+            .navbar-toggler {
+                background-color: #000;
+                color: @corPrincipal;
+            }
+        }
+    }
+
+    .navbar-brand img {
+        height: 85px;
+    }
+
+
+    .navbar-toggler {
+        background-color: @cordeFundo;
+        border-radius: 1px solid @cordeFundo;
+    }
+
+    .navbar-brand {
+        padding: 0;
+        color: @cordeFundo;
+
+        a {
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+    }
+
+    .nav-link {
+        color: #000
+    }
+}
+

@@ -1,0 +1,76 @@
+#o-que-eu-faco {
+    background-color: @corPrincipal;
+    color: white;
+
+    .section-title {
+        text-align: center;
+    }
+
+    &__content {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    &__imagem {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+        .imagem-principal {
+            filter: drop-shadow(0 20px 40px rgba(0,0,0,.25));
+            max-height: 760px; 
+            width: 130%;       
+            object-fit: contain;
+        }
+    }
+
+    &__texto {
+        text-align: center;
+        margin-top: -40px;
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+    }
+
+
+    @media @breakpointTablet {
+        &__content {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        &__imagem {
+            margin-bottom: 2rem;
+
+            .imagem-principal {
+                max-height: 420px;
+            }
+        }
+
+        &__texto {
+            margin-bottom: 2rem;
+        }
+    }
+
+    @media @breakpointMobile {
+        &__content {
+            flex-direction: column;
+        }
+
+        &__texto {
+            order: 1;
+            margin-bottom: 1.5rem;
+        }
+
+        &__imagem {
+            order: 2;
+            margin-bottom: 1.5rem;
+
+            .imagem-principal {
+                max-height: 360px;
+            }
+        }
+    }
+}
