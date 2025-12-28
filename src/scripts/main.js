@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
     const header = document.getElementById('cabecalho');
     const spotifyIcon = document.getElementById('animation');
+    const section = document.querySelector('#o-que-eu-faco');
+    const image = document.querySelector('.js-scale-on-scroll');
 
     window.addEventListener('scroll', function () {
         if (window.scrollY > 50) {
@@ -52,3 +54,4 @@ function digitar() {
 }
 
 digitar();
+

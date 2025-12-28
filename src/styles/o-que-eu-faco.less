@@ -1,41 +1,62 @@
 #o-que-eu-faco {
     background-color: @corPrincipal;
     color: white;
+    overflow: hidden; 
 
     .section-title {
         text-align: center;
+        margin-bottom: .5rem; 
+        padding-top: 0; 
+        padding: 0;   
     }
 
     &__content {
         display: flex;
-        align-items: flex-start;
+        align-items: center;
     }
 
-    &__imagem {
+        &__imagem {
+        margin-top: -1rem;
         display: flex;
         justify-content: center;
         align-items: flex-start;
 
+        .imagem-wrapper {
+            overflow: hidden;
+            max-height: 800px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
         .imagem-principal {
+            transform: scale(0.85);
+            transition: transform 0.25s steps(5, end);
             filter: drop-shadow(0 20px 40px rgba(0,0,0,.25));
-            max-height: 760px; 
-            width: 130%;       
+            max-height: 760px;
+            width: 130%;
             object-fit: contain;
+            will-change: transform;
         }
     }
+
 
     &__texto {
-        text-align: center;
-        margin-top: -40px;
+        text-align: left;
+        padding-left: 2rem;
 
-        p {
-            font-size: 1.1rem;
-            line-height: 1.7;
+        .paragrafo {
+            font-size: large;
+            line-height: .8;
         }
     }
 
 
-    @media @breakpointTablet {
+    @media @breakpointMobile {
+        .section-title {
+            font-size: 3rem;
+        }
+
         &__content {
             flex-direction: column;
             text-align: center;
@@ -45,7 +66,9 @@
             margin-bottom: 2rem;
 
             .imagem-principal {
-                max-height: 420px;
+                max-height: 380px;
+                width: 100%;
+                transform-origin: center bottom;
             }
         }
 
@@ -54,23 +77,34 @@
         }
     }
 
-    @media @breakpointMobile {
-        &__content {
-            flex-direction: column;
+    @media @breakpointTablet {
+
+        .imagem-wrapper {
+            max-height: unset;
         }
 
-        &__texto {
-            order: 1;
-            margin-bottom: 1.5rem;
+        &__content {
+            display: block; // 🔥 deixa o Bootstrap mandar
         }
 
         &__imagem {
-            order: 2;
-            margin-bottom: 1.5rem;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2rem;
 
             .imagem-principal {
-                max-height: 360px;
+                max-width: 420px;
+                width: 100%;
+                max-height: 420px;
+                transform: scale(1) !important;
             }
+        }
+
+        &__texto {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 0 1.25rem;
+            text-align: center;
         }
     }
 }
