@@ -15,14 +15,6 @@ import './o_que_eu_faco';
 /* ================= DOM READY ================= */
 document.addEventListener('DOMContentLoaded', () => {
 
-    /* ===== HEADER SCROLL ===== */
-    const header = document.getElementById('cabecalho');
-    if (header) {
-        window.addEventListener('scroll', () => {
-            header.classList.toggle('scrolled', window.scrollY > 50);
-        });
-    }
-
     /* ===== TYPING EFFECT ===== */
     const frases = [
         "Conectar pessoas é transformar resultados...",
@@ -99,4 +91,23 @@ window.addEventListener('load', () => {
             }
         });
     }
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const header = document.getElementById('cabecalho');
+
+    if (!header) return;
+
+    function handleScroll() {
+        if (window.scrollY > 50) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    }
+
+    window.addEventListener('scroll', handleScroll);
+
+    // garante o estado correto ao recarregar a página
+    handleScroll();
 });

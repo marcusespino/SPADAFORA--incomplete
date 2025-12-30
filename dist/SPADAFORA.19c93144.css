@@ -314,8 +314,9 @@ body {
 
 #o-que-eu-faco {
   color: #fff;
+  isolation: isolate;
   background-color: #ec2b35;
-  overflow: hidden;
+  position: relative;
 }
 
 #o-que-eu-faco .section-title {
@@ -330,86 +331,91 @@ body {
 }
 
 #o-que-eu-faco__imagem {
+  z-index: 1;
   justify-content: center;
   align-items: flex-start;
   margin-top: -1rem;
   display: flex;
-}
-
-#o-que-eu-faco__imagem .imagem-wrapper {
-  justify-content: center;
-  width: 100%;
-  max-height: 800px;
-  display: flex;
+  position: relative;
   overflow: hidden;
 }
 
-#o-que-eu-faco__imagem .imagem-principal {
-  filter: drop-shadow(0 20px 40px #00000040);
-  object-fit: contain;
+#o-que-eu-faco .imagem-wrapper {
+  transform-origin: center;
   will-change: transform;
-  width: 130%;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+#o-que-eu-faco .imagem-principal {
+  object-fit: contain;
+  filter: drop-shadow(0 20px 40px #00000040);
+  pointer-events: none;
+  width: 100%;
+  max-width: 100%;
   max-height: 760px;
-  transition: transform .25s steps(5, end);
-  transform: scale(.85);
 }
 
 #o-que-eu-faco__texto {
+  z-index: 10;
   text-align: left;
   padding-left: 2rem;
+  position: relative;
+}
+
+#o-que-eu-faco__texto iframe {
+  border-radius: 12px;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
 #o-que-eu-faco__texto p {
   padding-top: 10px;
   font-size: large;
-  line-height: .8;
+  line-height: 1.4;
 }
 
 @media (width <= 1000px) {
-  #o-que-eu-faco .section-title {
-    font-size: 3rem;
-  }
-
   #o-que-eu-faco__content {
-    text-align: center;
     flex-direction: column;
   }
 
   #o-que-eu-faco__imagem {
-    margin-bottom: 2rem;
+    perspective: 800px;
+    max-height: 320px;
+    margin-top: 0;
+    overflow: hidden;
   }
 
-  #o-que-eu-faco__imagem .imagem-principal {
-    transform-origin: bottom;
-    width: 100%;
+  #o-que-eu-faco .imagem-wrapper {
+    transition: transform .15s linear;
+    transform: perspective(800px)translateZ(-120px);
+  }
+
+  #o-que-eu-faco .imagem-principal {
     max-height: 380px;
   }
 
   #o-que-eu-faco__texto {
-    margin-bottom: 2rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding-left: 0;
   }
 }
 
 @media (width >= 768px) and (width <= 1023px) {
-  #o-que-eu-faco .imagem-wrapper {
-    max-height: unset;
-  }
-
   #o-que-eu-faco__content {
     display: block;
   }
 
   #o-que-eu-faco__imagem {
-    justify-content: center;
     margin-bottom: 2rem;
-    display: flex;
   }
 
-  #o-que-eu-faco__imagem .imagem-principal {
-    width: 100%;
+  #o-que-eu-faco .imagem-principal {
     max-width: 420px;
     max-height: 420px;
-    transform: scale(1) !important;
   }
 
   #o-que-eu-faco__texto {

@@ -728,10 +728,6 @@ var _videos = require("./videos");
 var _oQueEuFaco = require("./o_que_eu_faco");
 window.$ = window.jQuery = (0, _jqueryDefault.default);
 /* ================= DOM READY ================= */ document.addEventListener('DOMContentLoaded', ()=>{
-    /* ===== HEADER SCROLL ===== */ const header = document.getElementById('cabecalho');
-    if (header) window.addEventListener('scroll', ()=>{
-        header.classList.toggle('scrolled', window.scrollY > 50);
-    });
     /* ===== TYPING EFFECT ===== */ const frases = [
         "Conectar pessoas \xe9 transformar resultados...",
         "Comunica\xe7\xe3o que gera impacto!",
@@ -785,6 +781,17 @@ window.$ = window.jQuery = (0, _jqueryDefault.default);
             scaleImage.style.transform = `scale(${scale})`;
         }
     });
+});
+document.addEventListener('DOMContentLoaded', ()=>{
+    const header = document.getElementById('cabecalho');
+    if (!header) return;
+    function handleScroll() {
+        if (window.scrollY > 50) header.classList.add('scrolled');
+        else header.classList.remove('scrolled');
+    }
+    window.addEventListener('scroll', handleScroll);
+    // garante o estado correto ao recarregar a página
+    handleScroll();
 });
 
 },{"jquery":"dlwdd","jquery-mask-plugin":"eQmVT","scrollreveal":"6kSvE","./form":"9PffJ","./videos":"fFg4d","./o_que_eu_faco":"328PG","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","jquery-validation":"8FtLa","../styles/main.less":"1RF5f","bootstrap":"hjCRY"}],"dlwdd":[function(require,module,exports,__globalThis) {
@@ -9519,39 +9526,36 @@ document.querySelectorAll('.caro').forEach((caro)=>{
 
 },{}],"328PG":[function(require,module,exports,__globalThis) {
 const section = document.querySelector('#o-que-eu-faco');
-const image = document.querySelector('.js-scale-on-scroll');
-window.addEventListener('scroll', ()=>{
-    if (!image) return;
+const wrapper = document.querySelector('.imagem-wrapper');
+if (section && wrapper) window.addEventListener('scroll', ()=>{
     const width = window.innerWidth;
     const isMobile = width < 576;
     const isTablet = width >= 576 && width < 992;
-    const isDesktop = width >= 992;
-    // 📲 TABLET: trava completamente
-    if (isTablet) {
-        image.style.transform = 'scale(1)';
+    /* ================= TABLET ================= */ if (isTablet) {
+        wrapper.style.transform = 'scale(1)';
         return;
     }
     const sectionTop = section.offsetTop;
     const sectionHeight = section.offsetHeight;
     const scrollY = window.scrollY;
     const windowHeight = window.innerHeight;
-    const start = sectionTop - windowHeight * 0.7;
-    const end = sectionTop + sectionHeight * 0.75;
-    if (scrollY > start && scrollY < end) {
-        const progress = (scrollY - start) / (end - start);
-        const steps = 6;
-        const stepped = Math.floor(progress * steps) / steps;
-        let minScale = 0.9;
-        let maxScale = 1.35;
-        // 📱 MOBILE: anima menos
-        if (isMobile) {
-            minScale = 0.95;
-            maxScale = 1.0;
-        }
-        // 🖥 DESKTOP mantém impacto
-        const scale = minScale + stepped * (maxScale - minScale);
-        image.style.transform = `scale(${scale})`;
+    const start = sectionTop - windowHeight * 0.6;
+    const end = sectionTop + sectionHeight * 0.6;
+    if (scrollY < start || scrollY > end) return;
+    const progress = (scrollY - start) / (end - start);
+    const steps = 6;
+    const stepped = Math.floor(progress * steps) / steps;
+    /* ================= MOBILE ================= */ if (isMobile) {
+        const minZ = -140;
+        const maxZ = -80;
+        const z = minZ + stepped * (maxZ - minZ);
+        wrapper.style.transform = `perspective(800px) translateZ(${z}px)`;
+        return;
     }
+    /* ================= DESKTOP ================= */ const minScale = 0.9;
+    const maxScale = 1.2;
+    const scale = minScale + stepped * (maxScale - minScale);
+    wrapper.style.transform = `scale(${scale})`;
 });
 
 },{}],"8FtLa":[function(require,module,exports,__globalThis) {
