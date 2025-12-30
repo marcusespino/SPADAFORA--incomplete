@@ -1,28 +1,26 @@
 {
-  "name": "spadafora",
+  "name": "wvip",
   "version": "1.0.0",
   "description": "",
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
-  "main": "index.js",
   "scripts": {
-    "grunt": "grunt",
-    "build": "grunt build",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
   "devDependencies": {
-    "grunt": "^1.6.1",
-    "grunt-concurrent": "^3.0.0",
-    "grunt-contrib-clean": "^2.0.1",
-    "grunt-contrib-htmlmin": "^3.1.0",
-    "grunt-contrib-imagemin": "^4.0.0",
-    "grunt-contrib-less": "^3.0.0",
-    "grunt-contrib-sass": "^2.0.0",
-    "grunt-contrib-uglify": "^5.2.2",
-    "grunt-contrib-watch": "^1.1.0",
-    "grunt-less": "^0.1.7",
-    "grunt-replace": "^2.0.2",
-    "less": "^4.5.1"
+    "@parcel/transformer-less": "^2.16.3",
+    "parcel": "^2.16.1",
+    "sharp": "^0.33.5"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "jquery": "^3.7.1",
+    "jquery-mask-plugin": "^1.14.16",
+    "jquery-validation": "^1.21.0",
+    "scrollreveal": "^4.0.9"
   }
 }
