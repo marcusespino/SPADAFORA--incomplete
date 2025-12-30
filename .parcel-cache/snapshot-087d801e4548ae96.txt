@@ -69,7 +69,7 @@
 98C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\jquery\src\css\var\isHiddenWithinTree.js134116032475443321 0
 115C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\jquery-validation\dist\localization\messages_pt_BR.min.js134116032476418041 0
 89C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\needle\test\tls_options_spec.js134116029698193054 0
-49C:\Users\marky\OneDrive\Documentos\SPADAFORA\dist134116089513253225 1
+49C:\Users\marky\OneDrive\Documentos\SPADAFORA\dist134116095686924709 1
 86C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\@swc\helpers\esm\_dispose.js134116016676293427 0
 94C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\caniuse-lite\data\features\webgl2.js134116016705018936 0
 75C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\@parcel\core\test134116016687798942 1
@@ -86,7 +86,7 @@
 103C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\caniuse-lite\data\features\async-clipboard.js134116016668289394 0
 105C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\lmdb\dependencies\lz4\lib\dll\example\README.md134116016677063101 0
 92C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\@parcel\packager-html\package.json134116016675199241 0
-59C:\Users\marky\OneDrive\Documentos\SPADAFORA\src\index.html134116045332694275 0
+59C:\Users\marky\OneDrive\Documentos\SPADAFORA\src\index.html134116090520105394 0
 105C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\caniuse-lite\data\features\createimagebitmap.js134116016675167878 0
 80C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\safe-buffer\index.d.ts133944740853238410 0
 51C:\Users\marky\OneDrive\Documentos\SPADAFORA\src\js134115795274022555 1
@@ -111,7 +111,7 @@
 102C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\caniuse-lite\data\features\resizeobserver.js134116016701893098 0
 106C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\lmdb\node_modules\node-addon-api\tools\README.md134116016666140537 0
 103C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\@swc\helpers\cjs\_class_private_field_get.cjs134116016666777922 0
-70C:\Users\marky\OneDrive\Documentos\SPADAFORA\src\styles\cabecalho.less134116071053785728 0
+70C:\Users\marky\OneDrive\Documentos\SPADAFORA\src\styles\cabecalho.less134116095618648094 0
 96C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\@popperjs\core\dist\cjs\popper-lite.js134116038730540139 0
 103C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\less\test\browser\runner-strict-units-spec.js134116029700213690 0
 117C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\@popperjs\core\lib\utils\getOppositeVariationPlacement.d.ts134116038733762609 0
@@ -130,7 +130,7 @@
 78C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\electron-to-chromium134116016664465309 1
 114C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\@parcel\node-resolver-core\node_modules\semver\range.bnf134116016661355439 0
 75C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\react-refresh\cjs134116016663112072 1
-74C:\Users\marky\OneDrive\Documentos\SPADAFORA\src\styles\o-que-eu-faco.less134116089498307220 0
+74C:\Users\marky\OneDrive\Documentos\SPADAFORA\src\styles\o-que-eu-faco.less134116090567369573 0
 96C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\less\test\sourcemaps\custom-props.json134116029701618891 0
 102C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\less\test\browser\runner-global-vars-spec.js134116029700001676 0
 110C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\msgpackr-extract\node_modules\detect-libc\index.d.ts134116016663475779 0
@@ -5639,7 +5639,7 @@
 91C:\Users\marky\OneDrive\Documentos\SPADAFORA\dist\Revista-Allup30270-Photoroom.4fb37abf.png134116089502705963 0
 81C:\Users\marky\OneDrive\Documentos\SPADAFORA\dist\Spadafora img pq 1.d15db399.png134116089503161682 0
 77C:\Users\marky\OneDrive\Documentos\SPADAFORA\dist\Spadafora Logo.82663d3c.svg134116089502705963 0
-72C:\Users\marky\OneDrive\Documentos\SPADAFORA\dist\SPADAFORA.19c93144.css134116089508159950 0
-76C:\Users\marky\OneDrive\Documentos\SPADAFORA\dist\SPADAFORA.19c93144.css.map134116089508283010 0
+72C:\Users\marky\OneDrive\Documentos\SPADAFORA\dist\SPADAFORA.19c93144.css134116095686924709 0
+76C:\Users\marky\OneDrive\Documentos\SPADAFORA\dist\SPADAFORA.19c93144.css.map134116095686924709 0
 75C:\Users\marky\OneDrive\Documentos\SPADAFORA\dist\SPADAFORA.4841ef46.js.map134116089502705963 0
 71C:\Users\marky\OneDrive\Documentos\SPADAFORA\dist\whatsapp.dca9fccf.svg134116089501044387 0

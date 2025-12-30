@@ -33,7 +33,7 @@
 
 @media (width <= 1000px) {
   #cabecalho.scrolled {
-    background-color: #0000;
+    background-color: #ec2b35;
   }
 
   #cabecalho.scrolled .navbar-brand img {
@@ -383,7 +383,7 @@ body {
 
   #o-que-eu-faco__imagem {
     perspective: 800px;
-    max-height: 320px;
+    max-height: 420px;
     margin-top: 0;
     overflow: hidden;
   }
