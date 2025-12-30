@@ -301,7 +301,8 @@ body {
   text-align: left;
   padding-left: 2rem;
 }
-#o-que-eu-faco__texto .paragrafo {
+#o-que-eu-faco__texto p {
+  padding-top: 10px;
   font-size: large;
   line-height: 0.8;
 }
@@ -391,6 +392,7 @@ body {
   }
   #social-medias iframe {
     min-height: 460px;
+    border-radius: 12px;
   }
 }
 #videos {
@@ -612,7 +614,7 @@ body {
     justify-content: flex-start !important;
   }
   #fale-conosco .fale-conosco__form {
-    margin-left: 0.5rem;
+    margin-left: 0.4rem;
     margin-right: auto;
   }
   #fale-conosco .fale-conosco__form h3 {
