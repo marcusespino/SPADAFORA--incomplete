@@ -33,7 +33,7 @@
 77C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\tslib\tslib.es6.mjs133944733740153536 0
 109C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\@swc\helpers\src\_class_apply_descriptor_update.mjs134116016682728185 0
 84C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\jquery\dist\jquery.min.map134116032477554776 0
-64C:\Users\marky\OneDrive\Documentos\SPADAFORA\src\scripts\main.js134116173562599656 0
+64C:\Users\marky\OneDrive\Documentos\SPADAFORA\src\scripts\main.js134116180233221301 0
 101C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\@parcel\core\src\requests\PackageRequest.js134116016683502410 0
 93C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\less\lib\less\tree\dimension.js.map134116029703022144 0
 57C:\Users\marky\OneDrive\Documentos\SPADAFORA\package.json134116106319658532 0
@@ -69,7 +69,7 @@
 98C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\jquery\src\css\var\isHiddenWithinTree.js134116032475443321 0
 115C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\jquery-validation\dist\localization\messages_pt_BR.min.js134116032476418041 0
 89C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\needle\test\tls_options_spec.js134116029698193054 0
-49C:\Users\marky\OneDrive\Documentos\SPADAFORA\dist134116179040939173 1
+49C:\Users\marky\OneDrive\Documentos\SPADAFORA\dist134116684218810490 1
 86C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\@swc\helpers\esm\_dispose.js134116016676293427 0
 94C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\caniuse-lite\data\features\webgl2.js134116016705018936 0
 75C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\@parcel\core\test134116016687798942 1
@@ -86,7 +86,7 @@
 103C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\caniuse-lite\data\features\async-clipboard.js134116016668289394 0
 105C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\lmdb\dependencies\lz4\lib\dll\example\README.md134116016677063101 0
 92C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\@parcel\packager-html\package.json134116016675199241 0
-59C:\Users\marky\OneDrive\Documentos\SPADAFORA\src\index.html134116174504845727 0
+59C:\Users\marky\OneDrive\Documentos\SPADAFORA\src\index.html134116683982759709 0
 105C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\caniuse-lite\data\features\createimagebitmap.js134116016675167878 0
 80C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\safe-buffer\index.d.ts133944740853238410 0
 51C:\Users\marky\OneDrive\Documentos\SPADAFORA\src\js134115795274022555 1
@@ -111,7 +111,7 @@
 102C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\caniuse-lite\data\features\resizeobserver.js134116016701893098 0
 106C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\lmdb\node_modules\node-addon-api\tools\README.md134116016666140537 0
 103C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\@swc\helpers\cjs\_class_private_field_get.cjs134116016666777922 0
-70C:\Users\marky\OneDrive\Documentos\SPADAFORA\src\styles\cabecalho.less134116166980313186 0
+70C:\Users\marky\OneDrive\Documentos\SPADAFORA\src\styles\cabecalho.less134116180253149571 0
 96C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\@popperjs\core\dist\cjs\popper-lite.js134116038730540139 0
 103C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\less\test\browser\runner-strict-units-spec.js134116029700213690 0
 117C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\@popperjs\core\lib\utils\getOppositeVariationPlacement.d.ts134116038733762609 0
@@ -130,7 +130,7 @@
 78C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\electron-to-chromium134116016664465309 1
 114C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\@parcel\node-resolver-core\node_modules\semver\range.bnf134116016661355439 0
 75C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\react-refresh\cjs134116016663112072 1
-74C:\Users\marky\OneDrive\Documentos\SPADAFORA\src\styles\o-que-eu-faco.less134116179039701511 0
+74C:\Users\marky\OneDrive\Documentos\SPADAFORA\src\styles\o-que-eu-faco.less134116180187589256 0
 96C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\less\test\sourcemaps\custom-props.json134116029701618891 0
 102C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\less\test\browser\runner-global-vars-spec.js134116029700001676 0
 110C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\msgpackr-extract\node_modules\detect-libc\index.d.ts134116016663475779 0
@@ -190,7 +190,7 @@
 106C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\@swc\helpers\src\_apply_decorated_descriptor.mjs134116016682312978 0
 75C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\lmdb\node_modules134116016656766557 1
 78C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\json5\dist\index.mjs134116016665143082 0
-73C:\Users\marky\OneDrive\Documentos\SPADAFORA\src\scripts\o_que_eu_faco.js134116089370130432 0
+73C:\Users\marky\OneDrive\Documentos\SPADAFORA\src\scripts\o_que_eu_faco.js134116180208810284 0
 120C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\@parcel\core\test\fixtures\invalid-source-missing\package.json134116016688596494 0
 66C:\Users\marky\OneDrive\Documentos\SPADAFORA\src\js\jquery.mask.js132295338470000000 0
 94C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\@parcel\diagnostic\src\diagnostic.js134116016677063101 0
@@ -2982,7 +2982,7 @@
 100C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\@popperjs\core\dist\esm\modifiers\arrow.js134116038734657449 0
 89C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\caniuse-lite\data\regions\BB.js134116016670566051 0
 106C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\caniuse-lite\data\features\css-color-function.js134116016676631473 0
-60C:\Users\marky\OneDrive\Documentos\SPADAFORA\dist\index.html134116174508794595 0
+60C:\Users\marky\OneDrive\Documentos\SPADAFORA\dist\index.html134116684218595410 0
 87C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\jquery\src\attributes\attr.js134116032474340147 0
 90C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\jquery\src\attributes\classes.js134116032474454440 0
 92C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\caniuse-lite\data\features\json.js134116016688325152 0
@@ -3576,7 +3576,7 @@
 105C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\caniuse-lite\data\features\css-rebeccapurple.js134116016679843384 0
 103C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\caniuse-lite\data\features\css-reflections.js134116016679878355 0
 114C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\@swc\helpers\src\_class_apply_descriptor_destructure.mjs134116016682676482 0
-71C:\Users\marky\OneDrive\Documentos\SPADAFORA\dist\SPADAFORA.4841ef46.js134116174510423619 0
+71C:\Users\marky\OneDrive\Documentos\SPADAFORA\dist\SPADAFORA.4841ef46.js134116684218702812 0
 99C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\caniuse-lite\data\features\css-regions.js134116016679878355 0
 107C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\caniuse-lite\data\features\css-relative-colors.js134116016679914404 0
 111C:\Users\marky\OneDrive\Documentos\SPADAFORA\node_modules\caniuse-lite\data\features\css-repeating-gradients.js134116016679924458 0
@@ -5641,5 +5641,5 @@
 77C:\Users\marky\OneDrive\Documentos\SPADAFORA\dist\Spadafora Logo.82663d3c.svg134116174508806006 0
 72C:\Users\marky\OneDrive\Documentos\SPADAFORA\dist\SPADAFORA.19c93144.css134116179040939173 0
 76C:\Users\marky\OneDrive\Documentos\SPADAFORA\dist\SPADAFORA.19c93144.css.map134116179040939173 0
-75C:\Users\marky\OneDrive\Documentos\SPADAFORA\dist\SPADAFORA.4841ef46.js.map134116174510513550 0
+75C:\Users\marky\OneDrive\Documentos\SPADAFORA\dist\SPADAFORA.4841ef46.js.map134116684218810490 0
 71C:\Users\marky\OneDrive\Documentos\SPADAFORA\dist\whatsapp.dca9fccf.svg134116174508395525 0
